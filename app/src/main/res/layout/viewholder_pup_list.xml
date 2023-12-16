@@ -65,6 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="title"
+        android:singleLine="true"
         android:layout_margin="8dp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/view2"

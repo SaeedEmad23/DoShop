@@ -20,7 +20,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="80dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -185,14 +186,14 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/imageView104"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         android:src="@drawable/cat1" />
 
                     <TextView
-                        android:id="@+id/textView12"
+                        android:id="@+id/textView102"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -208,14 +209,14 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/imageView40"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         android:src="@drawable/cat2" />
 
                     <TextView
-                        android:id="@+id/textView12"
+                        android:id="@+id/textView103"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -231,14 +232,14 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/imageView500"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         android:src="@drawable/cat3" />
 
                     <TextView
-                        android:id="@+id/textView12"
+                        android:id="@+id/textView120"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -254,14 +255,14 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/imageView404"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         android:src="@drawable/cat4" />
 
                     <TextView
-                        android:id="@+id/textView12"
+                        android:id="@+id/textView123"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -349,13 +350,14 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:id="@+id/homeBtn"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.25"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView50"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -365,7 +367,7 @@
                         android:src="@drawable/btn_1" />
 
                     <TextView
-                        android:id="@+id/textView16"
+                        android:id="@+id/textView106"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Explorer"
@@ -380,7 +382,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView56"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -390,7 +392,7 @@
                         android:src="@drawable/btn_2" />
 
                     <TextView
-                        android:id="@+id/textView16"
+                        android:id="@+id/textView164"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Wishlist"
@@ -399,13 +401,14 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/cartBtn"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.25"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView504"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -415,11 +418,11 @@
                         android:src="@drawable/btn_3" />
 
                     <TextView
-                        android:id="@+id/textView16"
+                        android:id="@+id/textView156"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Cart"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
